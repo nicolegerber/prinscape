@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
+        
+        /*let object = PFObject(className: "Database")
+        object.addObject("Shopping", forKey: "Category")
+        object.addObject("whatever", forKey: "Name")
+        object.setObject("3143411632", forKey: "Phone")
+        object.saveInBackground()*/
+        
+        
         return true
     }
 

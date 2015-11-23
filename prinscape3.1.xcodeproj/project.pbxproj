@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B32AADF01C02842200B9CE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AADEF1C02842200B9CE81 /* AppDelegate.swift */; };
-		B32AADF21C02842200B9CE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AADF11C02842200B9CE81 /* ViewController.swift */; };
 		B32AADF51C02842200B9CE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32AADF31C02842200B9CE81 /* Main.storyboard */; };
 		B32AADF71C02842200B9CE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32AADF61C02842200B9CE81 /* Assets.xcassets */; };
-		B32AADFA1C02842200B9CE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32AADF81C02842200B9CE81 /* LaunchScreen.storyboard */; };
 		B32AAE051C02842300B9CE81 /* prinscape3_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE041C02842300B9CE81 /* prinscape3_1Tests.swift */; };
 		B32AAE101C02842300B9CE81 /* prinscape3_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE0F1C02842300B9CE81 /* prinscape3_1UITests.swift */; };
+		B32AAE281C02847F00B9CE81 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE1D1C02847F00B9CE81 /* AudioToolbox.framework */; };
+		B32AAE291C02847F00B9CE81 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE1E1C02847F00B9CE81 /* CFNetwork.framework */; };
+		B32AAE2A1C02847F00B9CE81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE1F1C02847F00B9CE81 /* CoreGraphics.framework */; };
+		B32AAE2B1C02847F00B9CE81 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE201C02847F00B9CE81 /* CoreLocation.framework */; };
+		B32AAE2C1C02847F00B9CE81 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE211C02847F00B9CE81 /* libsqlite3.tbd */; };
+		B32AAE2D1C02847F00B9CE81 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE221C02847F00B9CE81 /* libz.tbd */; };
+		B32AAE2E1C02847F00B9CE81 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE231C02847F00B9CE81 /* MobileCoreServices.framework */; };
+		B32AAE2F1C02847F00B9CE81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE241C02847F00B9CE81 /* QuartzCore.framework */; };
+		B32AAE301C02847F00B9CE81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE251C02847F00B9CE81 /* Security.framework */; };
+		B32AAE311C02847F00B9CE81 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE261C02847F00B9CE81 /* StoreKit.framework */; };
+		B32AAE321C02847F00B9CE81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE271C02847F00B9CE81 /* SystemConfiguration.framework */; };
+		B32AAE3B1C0285C500B9CE81 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE3A1C0285C500B9CE81 /* ParseUI.framework */; };
+		B32AAE3D1C0285E700B9CE81 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE3C1C0285E700B9CE81 /* Parse.framework */; };
+		B32AAE3F1C02860900B9CE81 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AAE3E1C02860900B9CE81 /* Bolts.framework */; };
+		B32AAE411C02882800B9CE81 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE401C02882800B9CE81 /* FoodTableViewController.swift */; };
+		B32AAE4F1C03059F00B9CE81 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE4E1C03059F00B9CE81 /* ShoppingTableViewController.swift */; };
+		B32AAE511C03065200B9CE81 /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE501C03065200B9CE81 /* ActivitiesTableViewController.swift */; };
+		B32AAE551C030D2000B9CE81 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AAE541C030D2000B9CE81 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,8 @@
 /* Begin PBXFileReference section */
 		B32AADEC1C02842200B9CE81 /* prinscape3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prinscape3.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32AADEF1C02842200B9CE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B32AADF11C02842200B9CE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B32AADF41C02842200B9CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B32AADF61C02842200B9CE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B32AADF91C02842200B9CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B32AADFB1C02842200B9CE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32AAE001C02842300B9CE81 /* prinscape3.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prinscape3.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32AAE041C02842300B9CE81 /* prinscape3_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prinscape3_1Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +61,25 @@
 		B32AAE0B1C02842300B9CE81 /* prinscape3.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prinscape3.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32AAE0F1C02842300B9CE81 /* prinscape3_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prinscape3_1UITests.swift; sourceTree = "<group>"; };
 		B32AAE111C02842300B9CE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32AAE1D1C02847F00B9CE81 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B32AAE1E1C02847F00B9CE81 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B32AAE1F1C02847F00B9CE81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B32AAE201C02847F00B9CE81 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B32AAE211C02847F00B9CE81 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B32AAE221C02847F00B9CE81 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B32AAE231C02847F00B9CE81 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B32AAE241C02847F00B9CE81 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B32AAE251C02847F00B9CE81 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B32AAE261C02847F00B9CE81 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B32AAE271C02847F00B9CE81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B32AAE351C0284CA00B9CE81 /* prinscape3.1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prinscape3.1-Bridging-Header.h"; sourceTree = "<group>"; };
+		B32AAE3A1C0285C500B9CE81 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B32AAE3C1C0285E700B9CE81 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B32AAE3E1C02860900B9CE81 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B32AAE401C02882800B9CE81 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		B32AAE4E1C03059F00B9CE81 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		B32AAE501C03065200B9CE81 /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		B32AAE541C030D2000B9CE81 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32AAE281C02847F00B9CE81 /* AudioToolbox.framework in Frameworks */,
+				B32AAE291C02847F00B9CE81 /* CFNetwork.framework in Frameworks */,
+				B32AAE3B1C0285C500B9CE81 /* ParseUI.framework in Frameworks */,
+				B32AAE2A1C02847F00B9CE81 /* CoreGraphics.framework in Frameworks */,
+				B32AAE2B1C02847F00B9CE81 /* CoreLocation.framework in Frameworks */,
+				B32AAE2C1C02847F00B9CE81 /* libsqlite3.tbd in Frameworks */,
+				B32AAE2D1C02847F00B9CE81 /* libz.tbd in Frameworks */,
+				B32AAE2E1C02847F00B9CE81 /* MobileCoreServices.framework in Frameworks */,
+				B32AAE2F1C02847F00B9CE81 /* QuartzCore.framework in Frameworks */,
+				B32AAE3D1C0285E700B9CE81 /* Parse.framework in Frameworks */,
+				B32AAE301C02847F00B9CE81 /* Security.framework in Frameworks */,
+				B32AAE311C02847F00B9CE81 /* StoreKit.framework in Frameworks */,
+				B32AAE321C02847F00B9CE81 /* SystemConfiguration.framework in Frameworks */,
+				B32AAE3F1C02860900B9CE81 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +124,25 @@
 		B32AADE31C02842200B9CE81 = {
 			isa = PBXGroup;
 			children = (
+				B32AAE3E1C02860900B9CE81 /* Bolts.framework */,
+				B32AAE3C1C0285E700B9CE81 /* Parse.framework */,
+				B32AAE3A1C0285C500B9CE81 /* ParseUI.framework */,
+				B32AAE1D1C02847F00B9CE81 /* AudioToolbox.framework */,
+				B32AAE1E1C02847F00B9CE81 /* CFNetwork.framework */,
+				B32AAE1F1C02847F00B9CE81 /* CoreGraphics.framework */,
+				B32AAE201C02847F00B9CE81 /* CoreLocation.framework */,
+				B32AAE211C02847F00B9CE81 /* libsqlite3.tbd */,
+				B32AAE221C02847F00B9CE81 /* libz.tbd */,
+				B32AAE231C02847F00B9CE81 /* MobileCoreServices.framework */,
+				B32AAE241C02847F00B9CE81 /* QuartzCore.framework */,
+				B32AAE251C02847F00B9CE81 /* Security.framework */,
+				B32AAE261C02847F00B9CE81 /* StoreKit.framework */,
+				B32AAE271C02847F00B9CE81 /* SystemConfiguration.framework */,
 				B32AADEE1C02842200B9CE81 /* prinscape3.1 */,
 				B32AAE031C02842300B9CE81 /* prinscape3.1Tests */,
 				B32AAE0E1C02842300B9CE81 /* prinscape3.1UITests */,
 				B32AADED1C02842200B9CE81 /* Products */,
+				B32AAE351C0284CA00B9CE81 /* prinscape3.1-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +160,12 @@
 			isa = PBXGroup;
 			children = (
 				B32AADEF1C02842200B9CE81 /* AppDelegate.swift */,
-				B32AADF11C02842200B9CE81 /* ViewController.swift */,
 				B32AADF31C02842200B9CE81 /* Main.storyboard */,
+				B32AAE541C030D2000B9CE81 /* DetailViewController.swift */,
+				B32AAE501C03065200B9CE81 /* ActivitiesTableViewController.swift */,
+				B32AAE4E1C03059F00B9CE81 /* ShoppingTableViewController.swift */,
+				B32AAE401C02882800B9CE81 /* FoodTableViewController.swift */,
 				B32AADF61C02842200B9CE81 /* Assets.xcassets */,
-				B32AADF81C02842200B9CE81 /* LaunchScreen.storyboard */,
 				B32AADFB1C02842200B9CE81 /* Info.plist */,
 			);
 			path = prinscape3.1;
@@ -229,7 +293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32AADFA1C02842200B9CE81 /* LaunchScreen.storyboard in Resources */,
 				B32AADF71C02842200B9CE81 /* Assets.xcassets in Resources */,
 				B32AADF51C02842200B9CE81 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32AADF21C02842200B9CE81 /* ViewController.swift in Sources */,
+				B32AAE511C03065200B9CE81 /* ActivitiesTableViewController.swift in Sources */,
+				B32AAE4F1C03059F00B9CE81 /* ShoppingTableViewController.swift in Sources */,
+				B32AAE551C030D2000B9CE81 /* DetailViewController.swift in Sources */,
+				B32AAE411C02882800B9CE81 /* FoodTableViewController.swift in Sources */,
 				B32AADF01C02842200B9CE81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +365,6 @@
 				B32AADF41C02842200B9CE81 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B32AADF81C02842200B9CE81 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B32AADF91C02842200B9CE81 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,10 +457,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape3-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "prinscape3.1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +475,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape3-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "prinscape3.1-Bridging-Header.h";
 			};
 			name = Release;
 		};
