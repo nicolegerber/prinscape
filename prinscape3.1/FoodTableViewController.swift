@@ -10,7 +10,7 @@ import UIKit
 
 class FoodTableViewController: PFQueryTableViewController {
     
-    // Initialise the PFQueryTable tableview
+    // Initialize the PFQueryTable tableview
     override init(style: UITableViewStyle, className: String!) {
         super.init(style: style, className: className)
     }
