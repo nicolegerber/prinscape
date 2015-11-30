@@ -12,9 +12,9 @@ class DetailViewController: UIViewController {
     
     var currentObject : PFObject?
 
-    @IBOutlet weak var Store: UITextField!
-    @IBOutlet weak var Address: UITextField!
-    @IBOutlet weak var Phone: UITextField!
+    @IBOutlet weak var Store: UITextView!
+    @IBOutlet weak var Address: UITextView!
+    @IBOutlet weak var Phone: UITextView!
     @IBOutlet weak var Hours: UITextField!
     @IBOutlet weak var Distance: UITextField!
     @IBOutlet weak var Expensivity: UITextField!

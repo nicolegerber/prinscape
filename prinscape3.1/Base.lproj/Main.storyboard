@@ -212,22 +212,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="3nA-Q5-rZS" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="34r-X2-M9f"/>
+                            <constraint firstItem="4Dx-fp-Npf" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="3nu-fT-c1W"/>
                             <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="GEb-Rj-WMH"/>
-                            <constraint firstItem="4iE-29-gcy" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="OxR-yX-sIX"/>
-                            <constraint firstItem="a0T-zC-pJp" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="Xzj-9C-wsi"/>
+                            <constraint firstItem="XYj-yQ-F8c" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="d8z-FT-2X0"/>
                             <constraint firstItem="JCN-ld-JGx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="f4R-tF-X1E"/>
                             <constraint firstItem="A5y-pO-IlW" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="jlN-OU-ZPs"/>
                             <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="tVs-DD-4nr"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Address" destination="4iE-29-gcy" id="Sec-ff-BNE"/>
+                        <outlet property="Address" destination="4Dx-fp-Npf" id="SWO-x5-RLq"/>
                         <outlet property="Distance" destination="JCN-ld-JGx" id="4dy-jl-b5F"/>
                         <outlet property="Expensivity" destination="hcI-xU-BEl" id="9z7-1p-neF"/>
                         <outlet property="Hours" destination="A5y-pO-IlW" id="trk-iD-HB4"/>
-                        <outlet property="Phone" destination="3nA-Q5-rZS" id="ORH-MT-qGz"/>
-                        <outlet property="Store" destination="a0T-zC-pJp" id="0uG-Iy-6GR"/>
+                        <outlet property="Phone" destination="XYj-yQ-F8c" id="Q0G-Ue-t7u"/>
+                        <outlet property="Store" destination="tzp-Ki-M6g" id="Qr3-aX-FCL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGa-9p-H0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
