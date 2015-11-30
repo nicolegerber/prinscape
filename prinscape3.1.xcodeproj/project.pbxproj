@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5683794F1C0CEE2400036CBE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683794E1C0CEE2400036CBE /* RatingControl.swift */; };
+		568379581C0CFC2B00036CBE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379511C0CFC2B00036CBE /* Bolts.framework */; };
+		568379591C0CFC2B00036CBE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379521C0CFC2B00036CBE /* Parse.framework */; };
+		5683795A1C0CFC2B00036CBE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379531C0CFC2B00036CBE /* ParseCrashReporting.framework */; };
+		5683795B1C0CFC2B00036CBE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379541C0CFC2B00036CBE /* ParseFacebookUtils.framework */; };
+		5683795C1C0CFC2B00036CBE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379551C0CFC2B00036CBE /* ParseFacebookUtilsV4.framework */; };
+		5683795D1C0CFC2B00036CBE /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379561C0CFC2B00036CBE /* ParseTwitterUtils.framework */; };
+		5683795E1C0CFC2B00036CBE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568379571C0CFC2B00036CBE /* ParseUI.framework */; };
 		B32AADF01C02842200B9CE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AADEF1C02842200B9CE81 /* AppDelegate.swift */; };
 		B32AADF51C02842200B9CE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32AADF31C02842200B9CE81 /* Main.storyboard */; };
 		B32AADF71C02842200B9CE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32AADF61C02842200B9CE81 /* Assets.xcassets */; };
@@ -53,6 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5683794E1C0CEE2400036CBE /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		568379511C0CFC2B00036CBE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		568379521C0CFC2B00036CBE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		568379531C0CFC2B00036CBE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		568379541C0CFC2B00036CBE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		568379551C0CFC2B00036CBE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		568379561C0CFC2B00036CBE /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		568379571C0CFC2B00036CBE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		B32AADEC1C02842200B9CE81 /* prinscape3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prinscape3.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32AADEF1C02842200B9CE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B32AADF41C02842200B9CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,9 +120,11 @@
 				B3A90D641C0CFEAC00693FC4 /* Parse.framework in Frameworks */,
 				B3A90D681C0CFEAC00693FC4 /* ParseUI.framework in Frameworks */,
 				B32AAE2D1C02847F00B9CE81 /* libz.tbd in Frameworks */,
+				5683795C1C0CFC2B00036CBE /* ParseFacebookUtilsV4.framework in Frameworks */,
 				B32AAE2E1C02847F00B9CE81 /* MobileCoreServices.framework in Frameworks */,
 				B32AAE2F1C02847F00B9CE81 /* QuartzCore.framework in Frameworks */,
 				B32AAE301C02847F00B9CE81 /* Security.framework in Frameworks */,
+				5683795D1C0CFC2B00036CBE /* ParseTwitterUtils.framework in Frameworks */,
 				B32AAE311C02847F00B9CE81 /* StoreKit.framework in Frameworks */,
 				B32AAE321C02847F00B9CE81 /* SystemConfiguration.framework in Frameworks */,
 				B3A90D661C0CFEAC00693FC4 /* ParseFacebookUtilsV4.framework in Frameworks */,
@@ -130,6 +148,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568379501C0CFC2B00036CBE /* parse-library-1.9.1 (1) */ = {
+			isa = PBXGroup;
+			children = (
+				568379511C0CFC2B00036CBE /* Bolts.framework */,
+				568379521C0CFC2B00036CBE /* Parse.framework */,
+				568379531C0CFC2B00036CBE /* ParseCrashReporting.framework */,
+				568379541C0CFC2B00036CBE /* ParseFacebookUtils.framework */,
+				568379551C0CFC2B00036CBE /* ParseFacebookUtilsV4.framework */,
+				568379561C0CFC2B00036CBE /* ParseTwitterUtils.framework */,
+				568379571C0CFC2B00036CBE /* ParseUI.framework */,
+			);
+			path = "parse-library-1.9.1 (1)";
+			sourceTree = "<group>";
+		};
 		B32AADE31C02842200B9CE81 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				B32AADEF1C02842200B9CE81 /* AppDelegate.swift */,
+				5683794E1C0CEE2400036CBE /* RatingControl.swift */,
 				B32AADF31C02842200B9CE81 /* Main.storyboard */,
 				B32AAE541C030D2000B9CE81 /* DetailViewController.swift */,
 				B32AAE501C03065200B9CE81 /* ActivitiesTableViewController.swift */,
@@ -336,6 +369,7 @@
 				B32AAE4F1C03059F00B9CE81 /* ShoppingTableViewController.swift in Sources */,
 				B32AAE551C030D2000B9CE81 /* DetailViewController.swift in Sources */,
 				B32AAE411C02882800B9CE81 /* FoodTableViewController.swift in Sources */,
+				5683794F1C0CEE2400036CBE /* RatingControl.swift in Sources */,
 				B32AADF01C02842200B9CE81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +511,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/parse-library-1.9.1",
+					"$(PROJECT_DIR)/parse-library-1.9.1",
+					"(1)",
 				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,6 +535,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/parse-library-1.9.1",
+					"$(PROJECT_DIR)/parse-library-1.9.1",
+					"(1)",
 				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
