@@ -175,13 +175,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
-                                <rect key="frame" x="196" y="356" width="209" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expensivity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-xU-BEl">
-                                <rect key="frame" x="207" y="386" width="187" height="21"/>
+                                <rect key="frame" x="207" y="396" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -205,8 +200,15 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Hours" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A5y-pO-IlW">
-                                <rect key="frame" x="195" y="326" width="209" height="22"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Hours" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="52U-z8-SSc">
+                                <rect key="frame" x="195" y="326" width="209" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
+                                <rect key="frame" x="196" y="366" width="209" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -215,9 +217,9 @@
                         <constraints>
                             <constraint firstItem="4Dx-fp-Npf" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="3nu-fT-c1W"/>
                             <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="GEb-Rj-WMH"/>
+                            <constraint firstItem="52U-z8-SSc" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="Lt4-5k-IzE"/>
                             <constraint firstItem="XYj-yQ-F8c" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="d8z-FT-2X0"/>
                             <constraint firstItem="JCN-ld-JGx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="f4R-tF-X1E"/>
-                            <constraint firstItem="A5y-pO-IlW" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="jlN-OU-ZPs"/>
                             <constraint firstItem="tzp-Ki-M6g" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="xM6-uW-56R"/>
                         </constraints>
                     </view>
@@ -225,7 +227,7 @@
                         <outlet property="Address" destination="4Dx-fp-Npf" id="SWO-x5-RLq"/>
                         <outlet property="Distance" destination="JCN-ld-JGx" id="4dy-jl-b5F"/>
                         <outlet property="Expensivity" destination="hcI-xU-BEl" id="9z7-1p-neF"/>
-                        <outlet property="Hours" destination="A5y-pO-IlW" id="trk-iD-HB4"/>
+                        <outlet property="Hours" destination="52U-z8-SSc" id="t01-JQ-PwF"/>
                         <outlet property="Phone" destination="XYj-yQ-F8c" id="Q0G-Ue-t7u"/>
                         <outlet property="Store" destination="tzp-Ki-M6g" id="Qr3-aX-FCL"/>
                     </connections>

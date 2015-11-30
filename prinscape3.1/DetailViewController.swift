@@ -15,7 +15,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var Store: UITextView!
     @IBOutlet weak var Address: UITextView!
     @IBOutlet weak var Phone: UITextView!
-    @IBOutlet weak var Hours: UITextField!
+    @IBOutlet weak var Hours: UITextView!
     @IBOutlet weak var Distance: UITextField!
     @IBOutlet weak var Expensivity: UITextField!
     
