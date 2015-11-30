@@ -19,11 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
         
-        /*let object = PFObject(className: "Database")
-        object.addObject("Shopping", forKey: "Category")
-        object.addObject("whatever", forKey: "Name")
-        object.setObject("3143411632", forKey: "Phone")
-        object.saveInBackground()*/
+        //let object = PFObject(className: "Database")
+        //object.addObject("Food", forKey: "Category")
+        //object.addObject("Chipotle", forKey: "Name")
+        //object.saveInBackground()
         
         
         return true
