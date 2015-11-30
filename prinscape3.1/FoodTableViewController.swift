@@ -3,7 +3,7 @@
 //  prinscape3.1
 //
 //  Created by Nicole Gerber on 11/22/15.
-//  Copyright © 2015 Nicole Gerber. All rights reserved.
+//  Copyright © 2015 Nicole Gerber, Amanda Breneman, Caidi Gillett. All rights reserved.
 //
 
 import UIKit
