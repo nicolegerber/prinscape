@@ -49,6 +49,11 @@ class FoodTableViewController: PFQueryTableViewController {
             FoodCell?.DistanceLabel?.text = String(Distance) + " miles"
         }
         
+        if let Photo = object?["Photo"] as? PFFile {
+            FoodCell?.ImageView?.file = Photo
+            FoodCell?.ImageView?.loadInBackground()
+        }
+        
         return FoodCell
     }
     

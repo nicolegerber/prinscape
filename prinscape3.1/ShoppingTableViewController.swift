@@ -37,20 +37,25 @@ class ShoppingTableViewController: PFQueryTableViewController {
     //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> ShoppingTableCell {
         
-        var FoodCell = tableView.dequeueReusableCellWithIdentifier("ShoppingCell") as! ShoppingTableCell!
-        if FoodCell == nil {
-            FoodCell = ShoppingTableCell(style: UITableViewCellStyle.Default, reuseIdentifier: "ShoppingCell")
+        var ShoppingCell = tableView.dequeueReusableCellWithIdentifier("ShoppingCell") as! ShoppingTableCell!
+        if ShoppingCell == nil {
+            ShoppingCell = ShoppingTableCell(style: UITableViewCellStyle.Default, reuseIdentifier: "ShoppingCell")
         }
         
         // Extract values from the PFObject to display in the table cell
         if let Name = object?["Store"] as? String {
-            FoodCell?.NameLabel?.text = Name
+            ShoppingCell?.NameLabel?.text = Name
         }
         if let Distance = object?["Distance"] as? Double {
-            FoodCell?.DistanceLabel?.text = String(Distance) + " miles"
+           ShoppingCell?.DistanceLabel?.text = String(Distance) + " miles"
         }
         
-        return FoodCell
+        if let Photo = object?["Photo"] as? PFFile {
+            ShoppingCell?.ImageView?.file = Photo
+            ShoppingCell?.ImageView?.loadInBackground()
+        }
+        
+        return ShoppingCell
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

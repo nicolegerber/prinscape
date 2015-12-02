@@ -12,5 +12,6 @@ class ShoppingTableCell: PFTableViewCell {
 
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
-    @IBOutlet weak var ImageView: UIImageView!
+    @IBOutlet weak var ImageView: PFImageView!
+    
 }

@@ -85,17 +85,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="53.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yfn-UY-SCC">
-                                            <rect key="frame" x="8" y="8" width="37.5" height="37.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yfn-UY-SCC" customClass="PFImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="53.5"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDu-BB-6A4">
-                                            <rect key="frame" x="53" y="8" width="539" height="21"/>
+                                            <rect key="frame" x="61" y="8" width="539" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y40-a4-zdW">
-                                            <rect key="frame" x="53" y="32" width="216" height="13.5"/>
+                                            <rect key="frame" x="61" y="32" width="216" height="13.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -104,7 +104,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="DistanceLabel" destination="y40-a4-zdW" id="8mi-nU-U93"/>
-                                    <outlet property="ImageView" destination="Yfn-UY-SCC" id="1eF-VV-LaG"/>
+                                    <outlet property="ImageView" destination="Yfn-UY-SCC" id="ecM-fT-YsU"/>
                                     <outlet property="NameLabel" destination="rDu-BB-6A4" id="msH-Cu-Heu"/>
                                     <segue destination="L6z-zg-eIh" kind="show" id="g0f-78-xAz"/>
                                 </connections>
@@ -136,17 +136,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="53.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GEa-Ff-XuC">
-                                            <rect key="frame" x="8" y="8" width="37.5" height="37.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GEa-Ff-XuC" customClass="PFImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="53.5"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWO-6p-90b">
-                                            <rect key="frame" x="53" y="8" width="539" height="21"/>
+                                            <rect key="frame" x="61" y="8" width="539" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOy-NM-Bhg">
-                                            <rect key="frame" x="53" y="32" width="258" height="13.5"/>
+                                            <rect key="frame" x="61" y="32" width="258" height="13.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -155,7 +155,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="DistanceLabel" destination="DOy-NM-Bhg" id="MGI-l6-Jcp"/>
-                                    <outlet property="ImageView" destination="GEa-Ff-XuC" id="Vd6-ke-W4P"/>
+                                    <outlet property="ImageView" destination="GEa-Ff-XuC" id="5b4-zr-n7o"/>
                                     <outlet property="NameLabel" destination="JWO-6p-90b" id="hz3-MC-Vvv"/>
                                     <segue destination="L6z-zg-eIh" kind="show" id="idX-O7-ndb"/>
                                 </connections>
@@ -265,17 +265,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="53.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1o-hK-s2D">
-                                            <rect key="frame" x="8" y="8" width="37.5" height="37.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1o-hK-s2D" customClass="PFImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="53.5"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSA-Iu-rVR">
-                                            <rect key="frame" x="53" y="8" width="539" height="21"/>
+                                            <rect key="frame" x="61" y="8" width="539" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRD-St-XWy">
-                                            <rect key="frame" x="53" y="31" width="256" height="14.5"/>
+                                            <rect key="frame" x="61" y="31" width="256" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -284,7 +284,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="DistanceLabel" destination="CRD-St-XWy" id="Vuk-Mr-sDN"/>
-                                    <outlet property="ImageView" destination="s1o-hK-s2D" id="0pF-ut-A5u"/>
+                                    <outlet property="ImageView" destination="s1o-hK-s2D" id="wpL-Yn-HhC"/>
                                     <outlet property="NameLabel" destination="bSA-Iu-rVR" id="xCR-65-I2Z"/>
                                     <segue destination="L6z-zg-eIh" kind="show" id="HZc-1Y-8t4"/>
                                 </connections>
