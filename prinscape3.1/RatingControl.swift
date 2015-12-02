@@ -12,9 +12,14 @@ class RatingControl: UIView {
     
     // MARK: Properties
     
-    var rating = 0
+    var rating = 0 {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
     var ratingButtons = [UIButton]()
-    let spacing = 10
+    let spacing = 5
     let stars = 5
     
     // MARK: Initialization
@@ -22,11 +27,21 @@ class RatingControl: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        for _ in 0..<5 {
+        // Declare star variables
+        let emptyStarImage = UIImage(named: "emptyStar")
+        let filledStarImage = UIImage(named: "filledStar")
+        
+        for _ in 0..<stars {
             let button = UIButton()
-            button.backgroundColor = UIColor.redColor()
-            button.addTarget(self, action: "ratingButtonTapped:", forControlEvents: .TouchDown)
             
+            // Set normal button state to the empty star
+            button.setImage(emptyStarImage, forState: .Normal)
+            button.setImage(filledStarImage, forState: .Selected)
+            button.setImage(filledStarImage, forState: [.Highlighted, .Selected])
+            
+            button.adjustsImageWhenHighlighted = false
+            
+            button.addTarget(self, action: "ratingButtonTapped:", forControlEvents: .TouchDown)
             ratingButtons += [button]
             addSubview(button)
         }
@@ -40,9 +55,10 @@ class RatingControl: UIView {
         
         // Offset each button's origin by the length of the button plus some spacing.
         for (index, button) in ratingButtons.enumerate() {
-            buttonFrame.origin.x = CGFloat(index * (buttonSize + 5))
+            buttonFrame.origin.x = CGFloat(index * (buttonSize + spacing))
             button.frame = buttonFrame
         }
+        updateButtonSelectionStates()
     }
     
     override func intrinsicContentSize() -> CGSize {
@@ -55,7 +71,16 @@ class RatingControl: UIView {
     // MARK: Button Action
     
     func ratingButtonTapped(button: UIButton) {
-        print("Button pressed 👍")
+        rating = ratingButtons.indexOf(button)! + 1
+        
+        updateButtonSelectionStates()
+    }
+    
+    func updateButtonSelectionStates() {
+        for (index, button) in ratingButtons.enumerate() {
+            // If the index of a button is less than the rating, that button shouldn't be selected.
+            button.selected = index < rating
+        }
     }
     
 }

@@ -214,11 +214,11 @@
                             </textField>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
                                 <rect key="frame" x="201" y="146" width="198" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="36Q-25-28k"/>
                             <constraint firstItem="4Dx-fp-Npf" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="3nu-fT-c1W"/>
                             <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="GEb-Rj-WMH"/>
                             <constraint firstItem="52U-z8-SSc" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="Lt4-5k-IzE"/>
