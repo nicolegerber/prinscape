@@ -11,7 +11,7 @@ import UIKit
 class RatingControl: UIView {
     
     // MARK: Properties
-    
+    //var currentObject : PFObject?
     var rating = 0 {
         didSet {
             setNeedsLayout()
@@ -74,6 +74,14 @@ class RatingControl: UIView {
         rating = ratingButtons.indexOf(button)! + 1
         
         updateButtonSelectionStates()
+        
+        //if let object = currentObject {
+            
+            //rating = object["ReviewNum"] as! String
+            // Save the data back to the server
+            //object.saveEventually(nil)
+            
+        //}
     }
     
     func updateButtonSelectionStates() {

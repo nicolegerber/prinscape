@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
+        //Possibly use this to keep app from crashing when offline?
+        //Parse.enableLocalDatastore()
+    Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
         
         //let object = PFObject(className: "Database")
         //object.addObject("Food", forKey: "Category")

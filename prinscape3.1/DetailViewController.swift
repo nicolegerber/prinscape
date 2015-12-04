@@ -11,13 +11,15 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var currentObject : PFObject?
-
+    
     @IBOutlet weak var Store: UITextView!
     @IBOutlet weak var Address: UITextView!
     @IBOutlet weak var Phone: UITextView!
     @IBOutlet weak var Hours: UITextView!
     @IBOutlet weak var Distance: UITextField!
     @IBOutlet weak var Expensivity: UITextField!
+    @IBOutlet weak var ratingControl: RatingControl!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +33,7 @@ class DetailViewController: UIViewController {
             Distance.text = String(object["Distance"] as! Float) + " miles"
             Expensivity.text = object["Expensivity"] as? String
         }
-
+        
         // Do any additional setup after loading the view.
     }
 
