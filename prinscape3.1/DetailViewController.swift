@@ -25,11 +25,13 @@ class DetailViewController: UIViewController {
         // Unwrap the current object object
         if let object = currentObject {
             Store.text = object["Store"] as? String
+            Store.sizeToFit()
             Address.text = object["Address"] as? String
             Phone.text = object["Phone"] as? String
             Hours.text = object["Hours"] as? String
             Distance.text = String(object["Distance"] as! Float) + " miles"
             Expensivity.text = object["Expensivity"] as? String
+            
         }
 
         // Do any additional setup after loading the view.

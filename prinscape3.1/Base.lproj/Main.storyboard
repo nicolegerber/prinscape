@@ -183,11 +183,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expensivity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-xU-BEl">
-                                <rect key="frame" x="207" y="396" width="187" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Store" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tzp-Ki-M6g">
                                 <rect key="frame" x="180" y="72" width="240" height="136"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -195,45 +190,57 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Address" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-fp-Npf">
-                                <rect key="frame" x="180" y="208" width="240" height="74"/>
+                                <rect key="frame" x="180" y="278" width="240" height="74"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" address="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Phone" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XYj-yQ-F8c">
-                                <rect key="frame" x="195" y="290" width="209" height="28"/>
+                                <rect key="frame" x="195" y="360" width="209" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Hours" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="52U-z8-SSc">
-                                <rect key="frame" x="195" y="326" width="209" height="32"/>
+                                <rect key="frame" x="195" y="396" width="209" height="47"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
-                                <rect key="frame" x="196" y="366" width="209" height="22"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
+                                <rect key="frame" x="201" y="226" width="198" height="44"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expensivity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-xU-BEl">
+                                <rect key="frame" x="309" y="451" width="111" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
-                                <rect key="frame" x="201" y="146" width="198" height="44"/>
-                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
+                                <rect key="frame" x="180" y="451" width="121" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="36Q-25-28k"/>
                             <constraint firstItem="4Dx-fp-Npf" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="3nu-fT-c1W"/>
-                            <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="GEb-Rj-WMH"/>
+                            <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" constant="50" id="GEb-Rj-WMH"/>
+                            <constraint firstItem="2qG-3e-kgx" firstAttribute="top" secondItem="tzp-Ki-M6g" secondAttribute="bottom" constant="5" id="Kpr-cc-mQh"/>
                             <constraint firstItem="52U-z8-SSc" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="Lt4-5k-IzE"/>
+                            <constraint firstItem="hcI-xU-BEl" firstAttribute="top" secondItem="JCN-ld-JGx" secondAttribute="top" id="ULA-qw-8In"/>
+                            <constraint firstItem="JCN-ld-JGx" firstAttribute="top" secondItem="52U-z8-SSc" secondAttribute="bottom" constant="5" id="WM1-to-Itl"/>
                             <constraint firstItem="XYj-yQ-F8c" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="d8z-FT-2X0"/>
                             <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="e5G-kh-gLQ"/>
-                            <constraint firstItem="JCN-ld-JGx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="f4R-tF-X1E"/>
+                            <constraint firstItem="JCN-ld-JGx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" constant="-50" id="f4R-tF-X1E"/>
+                            <constraint firstItem="XYj-yQ-F8c" firstAttribute="top" secondItem="4Dx-fp-Npf" secondAttribute="bottom" constant="5" id="pvd-Kf-ANK"/>
+                            <constraint firstItem="tzp-Ki-M6g" firstAttribute="top" secondItem="Erx-IE-yPd" secondAttribute="bottom" id="t6E-Jm-dBL"/>
+                            <constraint firstItem="4Dx-fp-Npf" firstAttribute="top" secondItem="2qG-3e-kgx" secondAttribute="bottom" constant="5" id="xHs-Mr-gmM"/>
                             <constraint firstItem="tzp-Ki-M6g" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="xM6-uW-56R"/>
+                            <constraint firstItem="52U-z8-SSc" firstAttribute="top" secondItem="XYj-yQ-F8c" secondAttribute="bottom" constant="5" id="zgB-o7-jcU"/>
                         </constraints>
                     </view>
                     <connections>
@@ -320,6 +327,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g0f-78-xAz"/>
+        <segue reference="HZc-1Y-8t4"/>
     </inferredMetricsTieBreakers>
 </document>
