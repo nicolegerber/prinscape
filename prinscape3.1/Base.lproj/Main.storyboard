@@ -208,48 +208,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="prin" translatesAutoresizingMaskIntoConstraints="NO" id="oSP-l1-fcB">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Store" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tzp-Ki-M6g">
+                                <rect key="frame" x="154" y="72" width="284" height="86"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
+                                <rect key="frame" x="201" y="158" width="198" height="44"/>
+                            </view>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expensivity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-xU-BEl">
-                                <rect key="frame" x="305" y="430" width="111" height="22"/>
+                                <rect key="frame" x="303" y="399" width="111" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Store" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tzp-Ki-M6g">
-                                <rect key="frame" x="155" y="64" width="283" height="115"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Address" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-fp-Npf">
-                                <rect key="frame" x="180" y="233" width="240" height="62"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="178" y="210" width="240" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" address="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Phone" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XYj-yQ-F8c">
-                                <rect key="frame" x="191" y="338" width="209" height="28"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="189" y="307" width="209" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Hours" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="52U-z8-SSc">
-                                <rect key="frame" x="191" y="375" width="209" height="47"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="189" y="344" width="209" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
-                                <rect key="frame" x="176" y="430" width="121" height="22"/>
+                                <rect key="frame" x="174" y="399" width="121" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
-                                <rect key="frame" x="201" y="179" width="198" height="44"/>
-                            </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Website" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pc8-RS-x6y">
-                                <rect key="frame" x="180" y="303" width="240" height="27"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="178" y="272" width="240" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -260,8 +258,12 @@
                             <constraint firstItem="pc8-RS-x6y" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="11C-GO-17F"/>
                             <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="36Q-25-28k"/>
                             <constraint firstItem="4Dx-fp-Npf" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="3nu-fT-c1W"/>
+                            <constraint firstItem="oSP-l1-fcB" firstAttribute="top" secondItem="hjI-TZ-4lz" secondAttribute="topMargin" id="6AS-YA-o66"/>
+                            <constraint firstItem="oSP-l1-fcB" firstAttribute="leading" secondItem="hjI-TZ-4lz" secondAttribute="leadingMargin" id="Dye-rP-3KT"/>
                             <constraint firstItem="hcI-xU-BEl" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" constant="50" id="GEb-Rj-WMH"/>
                             <constraint firstItem="52U-z8-SSc" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="Lt4-5k-IzE"/>
+                            <constraint firstItem="DJG-hH-GVP" firstAttribute="top" secondItem="oSP-l1-fcB" secondAttribute="bottom" id="Ucq-uS-0eY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oSP-l1-fcB" secondAttribute="trailing" id="Wn9-Fq-QNv"/>
                             <constraint firstItem="XYj-yQ-F8c" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="d8z-FT-2X0"/>
                             <constraint firstItem="2qG-3e-kgx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" id="e5G-kh-gLQ"/>
                             <constraint firstItem="JCN-ld-JGx" firstAttribute="centerX" secondItem="hjI-TZ-4lz" secondAttribute="centerX" constant="-50" id="f4R-tF-X1E"/>
