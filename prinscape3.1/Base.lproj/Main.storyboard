@@ -43,7 +43,6 @@
                             </button>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Welcome to PrinScape, your source for finding food, shopping, and activities near you!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKy-5j-fm1">
                                 <rect key="frame" x="115" y="171" width="236" height="106"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -54,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="kKy-5j-fm1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FkE-jM-83j"/>
                             <constraint firstItem="u26-re-ILA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H1D-Tk-Sfy"/>
@@ -67,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="245" y="309"/>
+            <point key="canvasLocation" x="225" y="309"/>
         </scene>
         <!--Activities Table View Controller-->
         <scene sceneID="m7n-8e-MuS">
