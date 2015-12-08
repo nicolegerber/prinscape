@@ -24,6 +24,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Unwrap the current object object
         if let object = currentObject {
             Store.text = object["Store"] as? String
@@ -31,7 +32,9 @@ class DetailViewController: UIViewController {
             Phone.text = object["Phone"] as? String
             Hours.text = object["Hours"] as? String
             Distance.text = String(object["Distance"] as! Float) + " miles"
-            Expensivity.text = object["Expensivity"] as? String
+            Expensivity.text = "Price: " + String(object["Expensivity"] as! String)
+            Website.text = object["Website"] as? String
+            
         }
         
         // Do any additional setup after loading the view.

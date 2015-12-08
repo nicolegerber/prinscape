@@ -28,8 +28,8 @@ class RatingControl: UIView {
         super.init(coder: aDecoder)
         
         // Declare star variables
-        let emptyStarImage = UIImage(named: "emptyStar")
-        let filledStarImage = UIImage(named: "filledStar")
+        let emptyStarImage = UIImage(named: "emptystar-1")
+        let filledStarImage = UIImage(named: "filledstar-1")
         
         for _ in 0..<stars {
             let button = UIButton()

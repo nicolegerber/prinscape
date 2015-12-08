@@ -34,19 +34,24 @@ class FoodTableViewController: PFQueryTableViewController {
     }
     
     //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> FoodTableCell {
         
-        var FoodCell = tableView.dequeueReusableCellWithIdentifier("FoodCell") as! PFTableViewCell!
+        var FoodCell = tableView.dequeueReusableCellWithIdentifier("FoodCell") as! FoodTableCell!
         if FoodCell == nil {
-            FoodCell = PFTableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "FoodCell")
+            FoodCell = FoodTableCell(style: UITableViewCellStyle.Default, reuseIdentifier: "FoodCell")
         }
         
         // Extract values from the PFObject to display in the table cell
         if let Name = object?["Store"] as? String {
-            FoodCell?.textLabel?.text = Name
+            FoodCell?.NameLabel?.text = Name
         }
         if let Distance = object?["Distance"] as? Double {
-            FoodCell?.detailTextLabel?.text = String(Distance) + " miles"
+            FoodCell?.DistanceLabel?.text = String(Distance) + " miles"
+        }
+        
+        if let Photo = object?["Photo"] as? PFFile {
+            FoodCell?.ImageView?.file = Photo
+            FoodCell?.ImageView?.loadInBackground()
         }
         
         return FoodCell

@@ -35,22 +35,27 @@ class ActivitiesTableViewController: PFQueryTableViewController {
     }
     
     //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> ActivitiesTableCell {
         
-        var FoodCell = tableView.dequeueReusableCellWithIdentifier("ActivityCell") as! PFTableViewCell!
-        if FoodCell == nil {
-            FoodCell = PFTableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "ActivityCell")
+        var ActivityCell = tableView.dequeueReusableCellWithIdentifier("ActivityCell") as! ActivitiesTableCell!
+        if ActivityCell == nil {
+            ActivityCell = ActivitiesTableCell(style: UITableViewCellStyle.Default, reuseIdentifier: "ActivityCell")
         }
         
         // Extract values from the PFObject to display in the table cell
         if let Name = object?["Store"] as? String {
-            FoodCell?.textLabel?.text = Name
+            ActivityCell?.NameLabel?.text = Name
         }
         if let Distance = object?["Distance"] as? Double {
-            FoodCell?.detailTextLabel?.text = String(Distance) + " miles"
+            ActivityCell?.DistanceLabel?.text = String(Distance) + " miles"
         }
         
-        return FoodCell
+        if let Photo = object?["Photo"] as? PFFile {
+            ActivityCell?.ImageView?.file = Photo
+            ActivityCell?.ImageView?.loadInBackground()
+        }
+        
+        return ActivityCell
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
