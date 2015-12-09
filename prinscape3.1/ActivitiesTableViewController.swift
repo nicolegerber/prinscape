@@ -36,7 +36,7 @@ class ActivitiesTableViewController: PFQueryTableViewController {
         return query
     }
     
-    //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    //override the existing tableView function with custom informaiton
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> ActivitiesTableCell {
         
         var ActivityCell = tableView.dequeueReusableCellWithIdentifier("ActivityCell") as! ActivitiesTableCell!

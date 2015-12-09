@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         
+        //Connect the app to the database
         Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
         
         

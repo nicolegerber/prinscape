@@ -15,6 +15,8 @@ class Main: UIViewController {
     @IBOutlet weak var Description: UITextView!
     
     override func viewDidLoad() {
+        
+        //adding drop shadow that can't be added through storyboard
         Description.layer.shadowColor = UIColor.blackColor().CGColor
         Description.layer.shadowOffset = CGSizeMake(1.0, 1.0)
         Description.layer.shadowOpacity = 1.0

@@ -12,6 +12,7 @@ import UIKit
 
 class ShoppingTableCell: PFTableViewCell {
 
+    //IBOutlets connected to tablecell
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
     @IBOutlet weak var ImageView: PFImageView!

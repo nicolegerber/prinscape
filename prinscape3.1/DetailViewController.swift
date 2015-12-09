@@ -12,8 +12,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    //set currentObject to PFObject calling this instance of DetailViewController
     var currentObject : PFObject?
     
+    //IBOutlets connected to the DetailViewController storyboard
     @IBOutlet weak var Store: UITextView!
     @IBOutlet weak var Address: UITextView!
     @IBOutlet weak var Phone: UITextView!
@@ -30,6 +32,8 @@ class DetailViewController: UIViewController {
         
         // Unwrap the current object object
         if let object = currentObject {
+            
+            //set text views and other text fields to the information in the database
             Store.text = object["Store"] as? String
             Address.text = object["Address"] as? String
             Phone.text = object["Phone"] as? String
@@ -49,17 +53,5 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
