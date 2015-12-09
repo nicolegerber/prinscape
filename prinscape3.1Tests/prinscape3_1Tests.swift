@@ -5,7 +5,7 @@
 // Instructor: John Broere
 // Date: 12/9/15
 //
-// Description:
+// Description: Auto-generated methods used for performance testing
 //
 
 import XCTest

@@ -5,7 +5,7 @@
 // Instructor: John Broere
 // Date: 12/9/15
 //
-// Description:
+// Description: This viewcontroller is the one that opens when you click on one of the cells in the tableviewcontroller. It prints out the name, address, phone number, hours, distance from Prin, price level, and website.
 //
 
 import UIKit

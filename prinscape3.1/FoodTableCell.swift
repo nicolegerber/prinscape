@@ -5,7 +5,7 @@
 // Instructor: John Broere
 // Date: 12/9/15
 //
-// Description:
+// Description: This class holds outlets to the three variables that go into the cell on the tableviewcontroller.
 //
 
 

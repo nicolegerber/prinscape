@@ -5,7 +5,7 @@
 // Instructor: John Broere
 // Date: 12/9/15
 //
-// Description:
+// Description: This tableviewcontroller holds all of the shopping from the Parse database and prints them into a table on the app. This class also creates the segue to the detailviewcontroller.
 //
 
 import UIKit
