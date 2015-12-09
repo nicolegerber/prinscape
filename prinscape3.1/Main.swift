@@ -5,7 +5,7 @@
 // Instructor: John Broere
 // Date: 12/9/15
 //
-// Description: Auto-generated method for when the program view loads
+// Description: This program provides users with lists of different food, shopping, and activities in area surrounding Principia. The user can click on different entries in the tables and they will be taken to a more detailed view with that establishment's information. There are back buttons for easy navigation between the different tables within the app.
 //
 
 import UIKit
