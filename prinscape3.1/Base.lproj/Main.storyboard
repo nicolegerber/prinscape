@@ -276,6 +276,7 @@
                         <outlet property="Expensivity" destination="hcI-xU-BEl" id="9z7-1p-neF"/>
                         <outlet property="Hours" destination="52U-z8-SSc" id="t01-JQ-PwF"/>
                         <outlet property="Phone" destination="XYj-yQ-F8c" id="Q0G-Ue-t7u"/>
+                        <outlet property="Rating" destination="2qG-3e-kgx" id="ax2-nf-zgf"/>
                         <outlet property="Store" destination="tzp-Ki-M6g" id="Qr3-aX-FCL"/>
                         <outlet property="Website" destination="pc8-RS-x6y" id="s3j-TQ-3h9"/>
                     </connections>

@@ -19,6 +19,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var Distance: UITextField!
     @IBOutlet weak var Expensivity: UITextField!
     @IBOutlet weak var Website: UITextView!
+    @IBOutlet weak var Rating: RatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +34,8 @@ class DetailViewController: UIViewController {
             Distance.text = String(object["Distance"] as! Float) + " miles"
             Expensivity.text = "Price: " + String(object["Expensivity"] as! String)
             Website.text = object["Website"] as? String
+            let TempRating = object["Rating"] as! Float
+            Rating.rating = Int(round(TempRating))
             
         }
     }
@@ -41,6 +44,7 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

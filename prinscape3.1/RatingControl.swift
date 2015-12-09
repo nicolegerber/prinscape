@@ -8,7 +8,9 @@
 
 import UIKit
 
-class RatingControl: UIView {
+class RatingControl: UIView{
+    
+    var currentObject : PFObject?
     
     // MARK: Properties
     
@@ -41,7 +43,7 @@ class RatingControl: UIView {
             
             button.adjustsImageWhenHighlighted = false
             
-            button.addTarget(self, action: "ratingButtonTapped:", forControlEvents: .TouchDown)
+           // button.addTarget(self, action: "ratingButtonTapped:", forControlEvents: .TouchDown)
             ratingButtons += [button]
             addSubview(button)
         }
@@ -70,11 +72,11 @@ class RatingControl: UIView {
     
     // MARK: Button Action
     
-    func ratingButtonTapped(button: UIButton) {
-        rating = ratingButtons.indexOf(button)! + 1
-        
-        updateButtonSelectionStates()
-    }
+//    func ratingButtonTapped(button: UIButton) {
+//        rating = ratingButtons.indexOf(button)! + 1
+//        
+//        updateButtonSelectionStates()
+//    }
     
     func updateButtonSelectionStates() {
         for (index, button) in ratingButtons.enumerate() {
