@@ -18,7 +18,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var Hours: UITextView!
     @IBOutlet weak var Distance: UITextField!
     @IBOutlet weak var Expensivity: UITextField!
-    @IBOutlet weak var ratingControl: RatingControl!
+    @IBOutlet weak var Website: UITextView!
     
     
     override func viewDidLoad() {

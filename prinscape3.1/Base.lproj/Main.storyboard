@@ -59,6 +59,7 @@
                             </button>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Welcome to PrinScape, your source for finding food, shopping, and activities near you!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKy-5j-fm1">
                                 <rect key="frame" x="115" y="171" width="236" height="106"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -219,7 +220,7 @@
                                 <rect key="frame" x="201" y="158" width="198" height="44"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expensivity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcI-xU-BEl">
-                                <rect key="frame" x="206" y="415" width="187" height="21"/>
+                                <rect key="frame" x="303" y="399" width="111" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -229,25 +230,27 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" address="YES"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Phone" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XYj-yQ-F8c">
+                                <rect key="frame" x="189" y="308" width="209" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Hours" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="52U-z8-SSc">
                                 <rect key="frame" x="189" y="344" width="209" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCN-ld-JGx">
-                                <rect key="frame" x="196" y="375" width="209" height="22"/>
+                                <rect key="frame" x="174" y="399" width="121" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-3e-kgx" customClass="RatingControl" customModule="prinscape3_1" customModuleProvider="target">
-                                <rect key="frame" x="201" y="146" width="198" height="44"/>
-                            </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Phone" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XYj-yQ-F8c">
-                                <rect key="frame" x="195" y="286" width="209" height="28"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Website" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pc8-RS-x6y">
+                                <rect key="frame" x="178" y="273" width="240" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -274,7 +277,7 @@
                         <outlet property="Hours" destination="52U-z8-SSc" id="t01-JQ-PwF"/>
                         <outlet property="Phone" destination="XYj-yQ-F8c" id="Q0G-Ue-t7u"/>
                         <outlet property="Store" destination="tzp-Ki-M6g" id="Qr3-aX-FCL"/>
-                        <outlet property="ratingControl" destination="2qG-3e-kgx" id="GZp-UO-qiD"/>
+                        <outlet property="Website" destination="pc8-RS-x6y" id="s3j-TQ-3h9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGa-9p-H0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -355,6 +358,6 @@
         <image name="prin" width="2592" height="3872"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HZc-1Y-8t4"/>
+        <segue reference="idX-O7-ndb"/>
     </inferredMetricsTieBreakers>
 </document>

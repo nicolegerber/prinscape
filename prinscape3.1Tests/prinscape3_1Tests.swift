@@ -1,10 +1,9 @@
-//
-//  prinscape3_1Tests.swift
-//  prinscape3.1Tests
-//
-//  Created by Nicole Gerber on 11/22/15.
-//  Copyright © 2015 Nicole Gerber. All rights reserved.
-//
+/*
+* Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+* Instructor: John Broere
+* Date: 12/9/15
+*
+*/
 
 import XCTest
 @testable import prinscape3_1

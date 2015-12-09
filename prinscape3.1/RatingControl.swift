@@ -11,7 +11,7 @@ import UIKit
 class RatingControl: UIView {
     
     // MARK: Properties
-    //var currentObject : PFObject?
+
     var rating = 0 {
         didSet {
             setNeedsLayout()
@@ -92,3 +92,4 @@ class RatingControl: UIView {
     }
     
 }
+
