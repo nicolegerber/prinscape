@@ -292,7 +292,7 @@
 				TargetAttributes = {
 					B32AADEB1C02842200B9CE81 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = PZ5J32L864;
+						DevelopmentTeam = NL7SNVF86P;
 					};
 					B32AADFF1C02842300B9CE81 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -513,7 +513,7 @@
 				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape3.1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "prinscape3.1-Bridging-Header.h";
@@ -540,7 +540,7 @@
 				);
 				INFOPLIST_FILE = prinscape3.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape3.1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Principia-College.prinscape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "prinscape3.1-Bridging-Header.h";

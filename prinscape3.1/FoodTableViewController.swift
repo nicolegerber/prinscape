@@ -35,7 +35,7 @@ class FoodTableViewController: PFQueryTableViewController {
         return query
     }
     
-    //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    //overrides the tableView function to add custom data
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> FoodTableCell {
         
         var FoodCell = tableView.dequeueReusableCellWithIdentifier("FoodCell") as! FoodTableCell!

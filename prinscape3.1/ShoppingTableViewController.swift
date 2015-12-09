@@ -36,7 +36,7 @@ class ShoppingTableViewController: PFQueryTableViewController {
         return query
     }
     
-    //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    //override the tableView function to add custom data
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> ShoppingTableCell {
         
         var ShoppingCell = tableView.dequeueReusableCellWithIdentifier("ShoppingCell") as! ShoppingTableCell!
