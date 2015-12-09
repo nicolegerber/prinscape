@@ -1,9 +1,11 @@
+// Project: PrinScape
 //
-//  AppDelegate.swift
-//  prinscape3.1
+// Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+// Course: CSCI 220 - Programming Languages
+// Instructor: John Broere
+// Date: 12/9/15
 //
-//  Created by Nicole Gerber on 11/22/15.
-//  Copyright © 2015 Nicole Gerber, Amanda Breneman, Caidi Gillett. All rights reserved.
+// Description: This class is where the app is connected directly to the Parse database. There are also several auto-generated methods for what happens when you close the app etc.
 //
 
 import UIKit
@@ -17,14 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        //Possibly use this to keep app from crashing when offline?
-        //Parse.enableLocalDatastore()
-    Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
-        
-        //let object = PFObject(className: "Database")
-        //object.addObject("Food", forKey: "Category")
-        //object.addObject("Chipotle", forKey: "Name")
-        //object.saveInBackground()
+        Parse.setApplicationId("Q0zQLiREBeIJcowyvRLfZWIEa8euF3dYuN8NxUhO", clientKey: "2usTzHbTmU2pENlqDxZ2ztfVq50Ee32MNqp4VOUM")
         
         
         return true

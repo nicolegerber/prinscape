@@ -1,9 +1,11 @@
+// Project: PrinScape
 //
-//  RatingControl.swift
-//  prinscape3.1
+// Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+// Course: CSCI 220 - Programming Languages
+// Instructor: John Broere
+// Date: 12/9/15
 //
-//  Created by Amanda Breneman on 11/30/15.
-//  Copyright © 2015 Nicole Gerber. All rights reserved.
+// Description: This class is responsible for printing out the ratings of each entry in the database and is where the graphics for the stars are dealt with.
 //
 
 import UIKit
@@ -72,19 +74,11 @@ class RatingControl: UIView{
     
     // MARK: Button Action
     
-    func ratingButtonTapped(button: UIButton) {
-        rating = ratingButtons.indexOf(button)! + 1
-        
-        updateButtonSelectionStates()
-        
-        //if let object = currentObject {
-            
-            //rating = object["ReviewNum"] as! String
-            // Save the data back to the server
-            //object.saveEventually(nil)
-            
-        //}
-    }
+//    func ratingButtonTapped(button: UIButton) {
+//        rating = ratingButtons.indexOf(button)! + 1
+//        
+//        updateButtonSelectionStates()
+//    }
     
     func updateButtonSelectionStates() {
         for (index, button) in ratingButtons.enumerate() {

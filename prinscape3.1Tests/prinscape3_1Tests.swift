@@ -1,9 +1,12 @@
-/*
-* Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
-* Instructor: John Broere
-* Date: 12/9/15
-*
-*/
+// Project: PrinScape
+//
+// Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+// Course: CSCI 220 - Programming Languages
+// Instructor: John Broere
+// Date: 12/9/15
+//
+// Description:
+//
 
 import XCTest
 @testable import prinscape3_1

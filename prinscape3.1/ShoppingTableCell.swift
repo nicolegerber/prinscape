@@ -1,9 +1,11 @@
+// Project: PrinScape
 //
-//  ShoppingTableCell.swift
-//  prinscape3.1
+// Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+// Course: CSCI 220 - Programming Languages
+// Instructor: John Broere
+// Date: 12/9/15
 //
-//  Created by Nicole Gerber on 12/2/15.
-//  Copyright © 2015 Nicole Gerber. All rights reserved.
+// Description:
 //
 
 import UIKit

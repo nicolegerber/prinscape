@@ -1,9 +1,11 @@
+// Project: PrinScape
 //
-//  FoodTableViewController.swift
-//  prinscape3.1
+// Authors: Nicole Gerber, Amanda Breneman, Caidi Gillett
+// Course: CSCI 220 - Programming Languages
+// Instructor: John Broere
+// Date: 12/9/15
 //
-//  Created by Nicole Gerber on 11/22/15.
-//  Copyright © 2015 Nicole Gerber, Amanda Breneman, Caidi Gillett. All rights reserved.
+// Description:
 //
 
 import UIKit
